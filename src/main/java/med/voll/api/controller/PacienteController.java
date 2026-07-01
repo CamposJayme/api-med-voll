@@ -2,9 +2,9 @@ package med.voll.api.controller;
 
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
-import med.voll.api.cliente.DadosCadastroPaciente;
-import med.voll.api.cliente.Paciente;
-import med.voll.api.cliente.PacienteRepository;
+import med.voll.api.paciente.DadosCadastroPaciente;
+import med.voll.api.paciente.Paciente;
+import med.voll.api.paciente.PacienteRepository;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
