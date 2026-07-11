@@ -37,7 +37,7 @@ public class MedicoController {
     @Transactional
     public void deletar(@PathVariable Long id) {
         var medico = repository.getReferenceById(id);
-        medico.excluir();
+        medico.inativar();
     }
 
 }
